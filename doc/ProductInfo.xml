@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Mercari>
+    <ProductInfo>
+        <Category>
+            <Cat1>7</Cat1>     <!--カテゴリー「1」: 家電・スマホ・カメラ-->
+            <Cat2>96</Cat2>     <!--カテゴリー「2」: PC/タブレット-->
+            <Cat3>842</Cat3>     <!--カテゴリー「3」: その他-->
+        </Category>
+        <Brand></Brand>                <!--ブランド（任意）-->
+        <ProductStatus>1</ProductStatus>        <!--商品の状態：新品、未使用-->
+        <ProductName>※※商品名を記載※※</ProductName>    <!--商品名-->
+        <!-- <ProductExplanation>※外部ファイルから読み込みのため省略※</ProductExplanation> -->  <!--商品の説明（任意）-->
+        <BurdenOfShippingCharges>2</BurdenOfShippingCharges>        <!--配送料の負担：送料込み（出品者負担）-->
+        <DeliveryMethod>14</DeliveryMethod>                         <!--配送の方法：らくらくメルカリ便-->
+        <DeliveryArea>27</DeliveryArea>                             <!--配送元の地域：大阪府-->
+        <DaysToDelivery>1</DaysToDelivery>                          <!--配送までの日数：1~2日で配送-->
+        <SellingPrice>99999</SellingPrice>                           <!--販売価格：99999-->
+    </ProductInfo>
+</Mercari>
