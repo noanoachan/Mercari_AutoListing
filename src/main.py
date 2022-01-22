@@ -1,8 +1,10 @@
 import CrawlingBrowser
 import Info
 import ReadFile
+import OperatGui
 from typing import Iterator
 from selenium import webdriver
+
 
 
 def main(nListingProductNum):
@@ -73,22 +75,8 @@ def main(nListingProductNum):
     driver.quit()
 
 
-if __name__ == '__main__':
-    # if len(sys.argv) != 0:
-    #     print('Error : コマンドライン引数が入力されていません。\n')
-    #     print('商品を幾つ出品するかを数値で指定して下さい。（※上限:5つ）\n')
-    #     exit()
-
-    # elif len(sys.argv) > 1:
-    #     print('Error : 引数は1つだけ入力して下さい。\n')
-    #     exit()
-
-    # else:
-    #     if int(sys.argv[0]) > 5:
-    #         print('Error : 一度に出品可能な個数は5つまでです。\n')
-    #         print('引数を「5」以下で再入力し、実行して下さい。\n')    
-    #         exit()
-
-    # main(sys.argv[0])
-
-    main(2)
+if __name__ == '__main__':    
+    objOperatGui = OperatGui.operatGui()
+    objOperatGui.selectListings()
+    
+    main(objOperatGui.getListingNum())
